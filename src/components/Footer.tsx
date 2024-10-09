@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 function Footer() {
@@ -80,7 +81,7 @@ function Footer() {
                     <p>Phone: (123) 456-7890</p>
                 </div>
             </div>
-            <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+            <p className="text-center text-sm pt-8">© 2024 <span className="italic text-sky-400"><Link href="https://portfolio-shahad-hassan.vercel.app/">Shahad Hassan</Link></span>. All rights reserved.</p>
         </footer>
     )
 }
